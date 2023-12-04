@@ -14,7 +14,7 @@ public class Game {
         return optionsParam[random.nextInt(optionsParam.length)];
     }
 
-    public static String getUserChoice(String[] optionsParam) {
+    public static String getUserChoice(String[] optionsParam) {// Эта функция определяет выбор одного из трёх позиций. 
         boolean isValidChoice = false;
         String userChoice = "";
         Scanner scanner = new Scanner(System.in);
